@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(205, 255, 211);
+}
+
+.container, .menu {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar h1 {
+    padding-right: 40%;
+    justify-content: start;
+}
+
+.menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 13%;
+}
+
+.menu ul {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu ul a:hover {
+    color: rgb(81, 156, 91);
+    text-decoration: underline;
+}
+
+.games{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.games ul a{
+    display: flex;
+    flex-direction: column;
+}
