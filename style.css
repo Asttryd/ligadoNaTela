@@ -50,7 +50,21 @@
     flex-direction: row;
 }
 
+.games ul {
+    margin-right: 10%;
+}
+
 .games ul a{
     display: flex;
     flex-direction: column;
+}
+
+.gameWindow {
+    display: flex;
+    justify-content: center;
+}
+
+.gameWindow .gameDisplay {
+
+    margin-top: 10%;
 }
